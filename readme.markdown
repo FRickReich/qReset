@@ -19,11 +19,11 @@ the qreset.css file should be at he topmost position of your css links inside th
 ## a little trick
 if you are using ruby (sinatra), you should add   
    
-get '/stylesheets/:name.css' do   
-	content_type 'text/css', :charset => 'utf-8'   
-	sass :"/stylesheets/#{params[:name]}"   
-end   
+> get '/stylesheets/:name.css' do   
+>  	content_type 'text/css', :charset => 'utf-8'   
+>  	sass :"/stylesheets/#{params[:name]}"   
+> end   
    
-into your your .rb file, this will automaticly read any .sass file in the stylesheets folder and convert it to css. this way you dont have to do it for every single file.  
+into your .rb file, this will automaticly read any .sass file in the stylesheets folder and convert it to css. this way you dont have to do it for every single file.  
 
 *qReset 2008 by F. Rick Reich (frederikreich@googlemail.com)*
