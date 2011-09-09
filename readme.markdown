@@ -26,4 +26,4 @@ if you are using ruby (sinatra), you should add
    
 into your .rb file, this will automaticly read any .sass file in the stylesheets folder and convert it to css. this way you dont have to do it for every single file.  
 
-*qReset 2008 by F. Rick Reich (frederikreich@googlemail.com)*
+*qReset 2011 by F. Rick Reich (frederikreich@googlemail.com)*
