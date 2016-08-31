@@ -1,4 +1,4 @@
-# qReset is currently Depracted, please do not use it until it has been updated to current standards!
+# qReset is currently deprecated, please do not use it until it has been updated to current standards!
 
 
 
